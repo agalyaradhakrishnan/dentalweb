@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.section-padding{
+    padding: 100px 0;
+}
+.carousel-item img {
+   width: 100%;
+}
+.banner .card{
+    width: 100%;
+}
+.about .card{
+width: 100%;
+}
+.services{
+    background-color:#3672bc;
+}
+.main-btn{
+    background-color: deeppink;
+    color: white;
+    padding:.75rem 1.375rem;
+
+}
+.team .card{
+    height: 450px;
+}
+.gallery{
+    background-color:#3672bc;
+}
+.gallery img{
+    border-radius: 10px;
+}
+
+.appointment .card-text {
+  font-size: 26px;      
+}
+.blog .card{
+    background-color: #004caa ;
+}
+.contact{
+    background-color: #004caa;
+}
+.contact .link-widget li a{color: white;
+    -webkit-transition: all 0.3s ease-out .0s;
+    transition:all 0.3s ease-out 0s;
+}
+.contact .link-widget li a::before{
+    content:'\f105';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    position:absolute;
+    left:0.3rem;
+    top:50%;
+    -webkit-transform:translateY(-50%);
+    transform:translateY(-50%);
+}
+.contact .link-widget li a:hover{
+    margin-left:.625rem;
+    color:deeppink;
+}
+.contact .social-network a:hover{
+    background-color:deeppink;
+    border-color:white;
+    color:text-white;
+    transform:translateY(-0.1875rem);
+}
+@media (max-width: 480px) {
+    .appointment h3{
+        font-size: 10px;
+    }
+     .appointment .main-btn{   
+     padding:.5rem 0.5rem;
+
+    }
+}
